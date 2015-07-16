@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#div1 {
+    display: none;
+}
+#div2 {
+    display: none;
+}
+#div3 {
+    display: none;
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+		$("#yes").click(function(){
+    		$("#div1").show();
+    	});
+    	$("#duh").click(function(){
+    		$("#div2").show();
+    	});
+});
+</script>
+</head>
+<body>
+
+<p>are you a student?</p>
+
+<button id="yes">yes</button>
+<button>no</button>
+
+<div id="div1">
+	<p> good for you </p>
+	<p> who are you then? </p> 
+		<button >human</button> 
+		<button id="duh">not really</button>
+</div>
+
+<div id="div2">
+		    	<p> such wow! you probably are ...</P>
+		    		<button >alien</button> 
+		    		<button >clark kent</button> 
+		    		<button >Mr. Spock</button> 
+		    		<button id="yes">lawyer</button>
+</div>
+
+</body>
+</html>
