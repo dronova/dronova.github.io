@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>We added some bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+<style>
+
+body {background-color:#F8EFFB}
+h1   {color:#8258FA}
+h2   {color:#5B4477}
+p    {color:#867C96}
+
+img {
+    margin: 50px 50px;
+}
+
+p.italic {
+    font-style: italic;
+}
+div.painting {
+    margin: 30px;
+    padding: 30px;
+    border: 3px solid #83798E;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    float: left;
+}   
+
+div.painting img {
+    display: inline;
+    margin: 5px;
+    border: 2px solid #E6E0F8;
+}
+
+div.painting2 {
+    margin: 30px;
+    padding: 30px;
+    border: 3px solid #83798E;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    float: left;
+} 
+
+div.painting2 img {
+    display: inline;
+    margin: 5px;
+    border: 2px solid #E6E0F8;
+}
+
+div.hearder2 {
+    clear: both;
+}
+.jumbotron {
+    position: relative;
+    background: #000 url("images/fog.jpg") center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    overflow: hidden;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 99%;
+      margin: 1px;
+  }
+  </style>
+
+<div class="jumbotron">
+    <div class="container">
+      <br>
+       <br>
+        <br>
+         <br>
+          <br> <br>
+  <p style= "text-align:left">not so black and white</p>
+    </div>
+</div>
+</head> 
+
+<body>
+  <div class="container">
+    <h1  style="color:#4B088A">Black and White California</h1>
+    <hr>
+    <p class="italic"> <pre>
+      <blockquote> <q>Soon it got dusk, a grapy dusk, a purple dusk <br> over tangerine groves and long melon fields;<br> the sun the color of pressed grapes,<br> slashed with burgandy red, the fields <br> the color of love and Spanish mysteries.</q> </p> <br>Jack Kerouac, <em> <small> On the Road </small> </em> </blockquote> </pre></p>
+      <p><a href="#14">Jump to 2014</a></p>
+      <p><a href="#15">Jump to 2015</a></p>
+   </div>
+ 
+
+<h2 id="14" style= "text-align:center" >Photo Shoots made in 2014</h2>
+
+<div class="gallery">
+    <div class="painting">
+        <img src="images/koponopo.jpg" width="128" height="128"> <p class="italic" style="color:#8258FA"> SF bikes </p>
+    </div>
+
+    <div class="painting">
+        <img src="images/podol12.jpg" width="128" height="128"> 
+        <p class="italic" style="color:#8258FA"> Berkeley, I-80 Bicycle/Pedestrian Bridge </p>
+    </div>
+    <div class="painting">
+        <img src="images/podol18.jpg" width="128" height="128">
+        <p class="italic" style="color:#8258FA"> SF lane </p>
+    </div>
+    <div class="painting">
+        <img src="images/poodl11.jpg" width="128" height="128">
+        <p class="italic" style="color:#8258FA"> Fire department, Berkeley, San Pablo </p>
+    </div>
+    <div class="painting">
+        <img src="images/1904023_10202871004791035_5295138090233408369_n.jpg" width="128" height="128">
+        <p class="italic" style="color:#8258FA"> Mirror in City Lights  bookstore SF 
+        <a href="http://citylightssf.com//" target="_blank"> See their website</a></p>
+    </div>
+    <div class="painting">
+        <img src="images/stanfoord.jpg" width="128" height="128"><p class="italic" style="color:#8258FA"> Stanford </p>
+</div>
+
+<div class="hearder2">
+<h2 id="15" style= "text-align:center"> Photo Shoots made in 2015 </h2>
+<div>
+
+<div class="gallery">
+    <div class="painting2">
+        <img src="images/May25.jpg" width="128" height="128"> 
+        <p class="italic" style="color:#8258FA"> SF Ocean Beach</p>
+    </div>
+
+    <div class="painting2">
+        <img src="images/shuttuckcinema.jpg" width="128" height="128"> 
+        <p class="italic" style="color:#8258FA"> Shattuck cinemas, Berkeley </p>
+    </div>
+    <div class="painting2">
+        <img src="images/feb27.jpg" width="128" height="128">
+        <p class="italic" style="color:#8258FA"> SF shore </p>
+    </div>
+    <div class="painting2">
+        <img src="images/mar13.jpg" width="128" height="128">
+        <p class="italic" style="color:#8258FA"> SF, Sutro Baths  </p>
+    </div>
+    <div class="painting2">
+        <img src="images/mar15.jpg" width="128" height="128">
+        <p class="italic" style="color:#8258FA"> Half Moon Bay, San Mateo County 
+            <a href="http://www.half-moon-bay.ca.us/" target="_blank"> See more</a>
+        </p>
+    </div>
+</div>
+
+<div class="hearder2">
+<div class="container">
+  <h2>Modal Example - I need to open the last picture full size</h2>
+<img src="images/mar15.jpg" width="128" height="128" data-toggle="modal" data-target="#myModal">
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">This is the last picture full size</h4>
+        </div>
+        <div class="modal-body">
+          <p>Yes, it is.</p>
+          <img src="images/mar15.jpg" width="800" height="450">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="hearder2">
+<h2 id="15" style= "text-align:center"> omg it'll never work </h2>
+<div>
+
+
+<div class="container-fluid">
+  <h3>container fluid</h3>
+  <p style="font-size:300%">GUESS WHAT: it WORKED!!!!</p>
+  <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+  </div>
+</div>
+
+<div class="container">
+  <h2>Button</h2>
+  <p>I am so basic, here I am</p>
+  <button type="button" class="btn">Basic Button</button>
+  <h2> This is a very other button</h2>
+   <p>Buttons like to be big and clickable</p>            
+  <button type="button" class="btn btn-default btn-lg">Are you a student?</button>
+  <button type="button" class="btn btn-info btn-lg">Who are you then?</button>      
+</div>
+
+
+<div class="container">
+  <h2>Very very horizontal form</h2>
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox"> You should never remember me</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+     <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/DSC_0690.JPG">
+      </div>
+    
+      <div class="item">
+        <img src="images/DSC_0692.JPG">
+      </div>
+
+      <div class="item">
+        <img src="images/DSC_0697.JPG">
+       </div>
+
+      <div class="item">
+        <img src="images/DSC_0707.JPG">
+      </div>
+
+      <div class="item">
+        <img src="images/DSC_0708.JPG">
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+</body>
+</html>
+
+</body>
+</html>
